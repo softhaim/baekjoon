@@ -33,7 +33,7 @@ for _ in range(M):
 
 # [[], [4, 2], [1, 3, 4], [2, 4], [1, 2, 3], []] 이런걸 [[], [2, 4], [1, 3, 4], [2, 4], [1, 2, 3], []] 이렇게 바꿈
 for i in range(1, N+1):
-    graph[i].sort()
+    graph[i].sort(reverse=True)
 
 bfs(graph, R, visited)
 
