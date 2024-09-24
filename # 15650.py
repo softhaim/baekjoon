@@ -18,9 +18,6 @@ def dfs(last_num):
             # print(visit)  
             visit[i] = False
 
-
-
-
 n, m = map(int, sys.stdin.readline().split())
 
 # 1 부터 n까지 자연수 중에서 중복 없이 m개를 고른 수열
